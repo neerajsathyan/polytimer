@@ -1,7 +1,7 @@
 {
   "name": "Polytimer",
   "short_name": "Polytimer",
-  "start_url": "/?homescreen=1",
+  "start_url": "/polytimer/index.html?homescreen=1",
   "description":"Keep your time together man! Simple timer app that helps you to relax and not forget thing on the oven.",
   "display": "fullscreen",
   "theme_color": "#6A1B9A",
@@ -9,17 +9,17 @@
   "gcm_sender_id": "103953800507",
   "serviceworker": {
     "src": "service-worker.js",
-    "scope": "/",
+    "scope": "/polytimer/",
     "use_cache": true
   },
   "icons": [
     {
-      "src": "images/manifest/icon-192x192.png",
+      "src": "/polytimer/images/manifest/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "images/manifest/icon-512x512.png",
+      "src": "/polytimer/images/manifest/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
