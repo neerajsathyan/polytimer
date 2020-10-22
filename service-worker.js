@@ -19,8 +19,8 @@ self.addEventListener('push', function(event) {
   var title = 'Polytimer';
   var options = {
     "body":   "Time is up!",
-    "icon":   "/images/manifest/icon-96x96.png",
-    "badge":  "/images/notification/badge-96x96.png",
+    "icon":   "/polytimer/images/manifest/icon-96x96.png",
+    "badge":  "/polytimer/images/notification/badge-96x96.png",
     "vibrate": [500,100,500,100,500,100,500],
     "tag": 'renotify',
     "renotify": true
@@ -32,8 +32,8 @@ self.addEventListener('message', function(event) {
   var title = 'Polytimer';
   var options = {
     "body": "Time is up!",
-    "icon": "/images/manifest/icon-96x96.png",
-    "badge":  "/images/notification/badge-96x96.png",
+    "icon": "/polytimer/images/manifest/icon-96x96.png",
+    "badge":  "/polytimer/images/notification/badge-96x96.png",
     "vibrate": [500,100,500,100,500,100,500],
     "tag": 'renotify',
     "renotify": true
